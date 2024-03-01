@@ -2,13 +2,13 @@
 Name: Maura Wahl
 Time: Thursdays at 2pm
 '''
-def feet_to_steps(user_feet):
+def feet_to_steps(user_feet: float):
    #write your code here
-   return (user_feet/2.5)
+   return (int)(user_feet/2.5)
 
 if __name__ == '__main__':
    user_feet = float(input("how many feet?"))
-   print(int(feet_to_steps(user_feet)))
+   print(feet_to_steps(user_feet))
     #take input feet steps here
     #store it into the function
     

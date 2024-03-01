@@ -6,7 +6,6 @@ def test_passed():
     
     # Test case 1 
     student_result = feet_to_steps(11)
- 
     
    
     # Ensure correct return type

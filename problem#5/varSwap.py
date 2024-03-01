@@ -2,7 +2,6 @@
 Name: Maura Wahl
 Time: Thursdays at 2pm
 '''
-
 def swap_values(user_val1, user_val2, user_val3, user_val4):   
    #write your code here
    temp = user_val1
